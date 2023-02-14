@@ -3,9 +3,21 @@
 
 :root {
   --main-color: #2196f3;
+  --first-color: #ffffff;
   --second-color: #212121;
   --third-color: #757575;
 }
+h1 {
+  color: #ffffff;
+  background-color: #2F303A;
+  width: 1600px;
+  height: 252px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /*todo el contenido*/
 .body {
 color: #000000;
@@ -13,3 +25,74 @@ background:#ffffff;
 font-size: 'Roboto' , 'Releay' , sans-serif;
 }
 
+.title {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+}
+
+.button:hover {
+  color: var(--first-color);
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.project{
+  color: var(--second-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.type-project{
+  color: var(--third-color);
+}
+
+.navbar .anchor {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.navbar-menu .filter {
+  color: var(--second-color);
+}
+
+.navbar-menu .filter:hover {
+  color: var(--main-color);
+}
+
+.navbar-contac >a {
+  color: var(--third-color);
+}
+
+.navbar-contac >a:hover {
+  color: var(--main-color);
+}
+
+.navbar-menu .filter-webstudio{
+  color: var(--main-color);
+  font-size: 26px;
+  font-weight: 700px;
+  line-height: 1.20;
+}
+
+.webstudio{
+  color: var(--main-color);
+  font-size: 26px;
+  font-weight: 700px;
+  line-height: 1.20;
+}
+
+.footer{
+  background-color: #2F303A;
+}
+
+.address{
+  color: var(--first-color)
+}
+
+.contact-footer{
+  color: #757575;
+}
