@@ -7,132 +7,94 @@
     <title class="main-title">portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="body">
+<body>
     <!--Encabezado principal de la pagina-->
     <header class="header">
+        <h2 class="subtitle">WebStudio</h2>
         <nav class="navbar">
             <ul class="navbar-menu">
-                <li>
-                    <a href="index.html" target="_blank" rel="" class="filter-webstudio">webstudio</a>
-                </li>
-                <li>
-                    <a href="index.html" target="" rel="" class="filter">Estudio</a>
-                </li>
-                <li>
-                    <a  href="portfolio.html" target="" rel="" class="filter">Portafolio</a>
-                </li>
-                <li>
-                    <a  href="" target="_blank" rel="" class="filter">Contactos</a>
-                </li>
+                <li class="list"><a href="index.html" class="filter">Estudio</a></li>
+                <li class="list"><a href="portfolio.html" class="filter">Portafolio</a></li>
+                <li class="list"><a href="contactos" class="filter">Contactos</a></li> 
             </ul>
-
-            <section class="navbar-contac">
-               <a
-                href="info@devstudio.com"
-                target="_blank"
-                rel=""
-                class="contac"
-                >info@devstudio.com</a>
-
-                <a href="tel:+525555296000"
-                target="_blank"
-                rel=""
-                class="contact"
-                >+5255 5529 6000</a>
-            </section>
+            <ul class="navbar-contac">
+                <li class="list">
+                    <a class="contac" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="list">
+                     <a class="contac" href="tel:+525555296000">+5255 5529 6000</a>
+                 </li>
+            </ul>
         </nav>
     </header>
-
     <main>
         <!-- filtro de portafolio -->
         <section class="main-filter">
             <ul>
-                <li><button type="button" class="button">Todo</button></li>
-                <li><button type="button" class="button">Sitios-web</button></li>
-                <li><button type="button" class="button">Portafolio</button></li>
-                <li><button type="button" class="button">Diseños</button></li>
-                <li><button type="button" class="button">Marketing</button></li>
+                <li class="list"><button type="button" class="button">Todo</button></li>
+                <li class="list"><button type="button" class="button">Sitios-web</button></li>
+                <li class="list"><button type="button" class="button">Portafolio</button></li>
+                <li class="list"><button type="button" class="button">Diseños</button></li>
+                <li class="list"><button type="button" class="button">Marketing</button></li>
             </ul>
         </section>
             <!-- primera linea imagenes -->
         <section class="main-images">
             <ul>
-                <li>
-                    <figure>
-                        <img src="images/imagen_1.jpg" alt="sitios-web" width="370">
-                        <p class="project">Tecnoduck</p>
-                        <p class="type-project">Sitio-web</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_1.jpg" alt="sitios-web" width="370">
+                    <h3 class="project">Tecnoduck</h3>
+                    <p class="type-project">Sitio-web</p>
                 </li>
-                <li>
-                    <figure>
-                        <img src="images/imagen_2.jpg" alt="Diseño" width="370">
-                        <p class="project">Póster de Nueva Orleans vs Estrella Dorada</P>
-                        <p class="type-project">Diseño</p>
-                    </figure>   
+                <li class="list">
+                    <img src="images/imagen_2.jpg" alt="Diseño" width="370">
+                    <h3 class="project">Póster de Nueva Orleans vs Estrella Dorada</h3>
+                    <p class="type-project">Diseño</p>
                 </li>
-                <li>
-                    <figure>
-                        <img src="images/imagen_3..jpg" alt="aplicaciones" width="370">
-                        <p class="project">Restaurante Seafood</p>
-                        <p class="type-project">Aplicaciones</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_3..jpg" alt="aplicaciones" width="370">
+                    <h3 class="project">Restaurante Seafood</h3>
+                    <p class="type-project">Aplicaciones</p>
                 </li>
             </ul>
         </section>
             <!-- segunda linea imagenes-->
         <section class="main-images">
             <ul>
-                <li>
-                    <figure>
-                        <img src="images/imagen_.4.jpg" alt="aplicaciones" width="370">
-                        <p class="project">Proyecto Prime</p>
-                        <p class="type-project">Marketing</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_.4.jpg" alt="aplicaciones" width="370">
+                    <h3 class="project">Proyecto Prime</h3>
+                    <p class="type-project">Marketing</p>
                 </li>
-                <li>
-                    <figure>
-                        <img src="images/imagen_5.jpg" alt="aplicaciones" width="370">
-                        <p class="project">Proyecto Cajas</p>
-                        <p class="type-project">Aplicaciones</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_5.jpg" alt="aplicaciones" width="370">
+                    <h3 class="project">Proyecto Cajas</h3>
+                    <p class="type-project">Aplicaciones</p>
                 </li>
-                <li>
-                    <figure>
-                        <img src="images/imagen_6.jpg" alt="sitio-web" width="370">
-                        <p class="project">La inspiración no tiene límites</p>
-                        <p class="type-project">Sitio-web</p>
-                    </figure>   
+                <li class="list">
+                    <img src="images/imagen_6.jpg" alt="sitio-web" width="370">
+                    <h3 class="project">La inspiración no tiene límites</h3>
+                    <p class="type-project">Sitio-web</p>
                 </li>
             </ul>
         </section>
         <!-- tercera linea imagenes -->
         <section class="main-images">
             <ul>
-                <li>
-                    <figure>
-                        <img src="images/imagen_7.jpg" alt="Diseño" width="370">
-                        <p class="project">Edición Limitada</p>
-                        <p class="type-project">Diseño</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_7.jpg" alt="Diseño" width="370">
+                    <h3 class="project">Edición Limitada</h3>
+                    <p class="type-project">Diseño</p>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/imagen_8.jpg" alt="marketing" width="370">
-                        <p class="project">Proyecto LAB</p>
-                        <p class="type-project">Marketing</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_8.jpg" alt="marketing" width="370">
+                    <h3 class="project">Proyecto LAB</h3>
+                    <p class="type-project">Marketing</p>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/imagen_9.jpg" alt="aplicaciones" width="370">
-                        <p class="project">Negocio en Crecimiento</p>
-                        <p class="type-project">Aplicaciones</p>
-                    </figure>
+                <li class="list">
+                    <img src="images/imagen_9.jpg" alt="aplicaciones" width="370">
+                    <h3 class="project">Negocio en Crecimiento</h3>
+                    <p class="type-project">Aplicaciones</p>
                 </li>
             </ul>
         </section>
@@ -140,11 +102,17 @@
      <!-- pie de pagina -->
     <footer class="footer">
         <!-- seccion de contacto -->
-        <a href="webstudio" class="webstudio">WebStudio</a>
+        <h2 class="subtitle">Webstudio</h2>
         <address>
-            <p class="address">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-            <p><a class="contact-footer" href="info@example.com">info@example.com</a></p>
-            <p><a class="contact-footer" href="+525555296000">+52 55 5529 6000</a></p>
+            Calz. Ticomán 500, Ciudad de México, CDMX, México
+            <ul>
+                <li class="list">
+                    <a class="contact-footer" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="list">
+                    <a class="contact-footer" href="tel:+525555296000">+52 55 5529 6000</a>
+                </li>
+            </ul>
         </address>
     </footer>
 </body>
