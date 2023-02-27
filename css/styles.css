@@ -5,13 +5,64 @@
   --second-color: #212121;
   --third-color: #757575;
 }
+body{
+color: #000000;
+background:#ffffff;
+font-family:  'Roboto', sans-serif;
+font-size: 14px;
+letter-spacing: 0,03em;
+}
 .section {
   color: #ffffff;
-  font-size: sans-serif;
-  font-weight: 900;
-  line-height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100px;
   text-align: center;
   background-color: #2F303A;
+}
+.filter{
+  color:  #212121;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+}
+.filter:hover{
+  color: var(--main-color);
+}
+.link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #757575
+}
+.link:hover{
+  color: var(--main-color);
+}
+.button-title{
+  color: #ffffff; 
+  background-color: #2196f3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.second-title{
+  color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px
+}
+.third-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 .list{
   list-style-type: none;
@@ -23,55 +74,29 @@
   line-height: 1.20;
   text-decoration: none;
 }
-.button-title{
-  color: var(--first-color);
-  background-color: #2196f3;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
-}
 /*todo el contenido*/
-.body {
-color: #000000;
-background:#ffffff;
-font-size: 'Roboto' , 'Releay' , sans-serif;
-}
-.link{
-  color: var(--third-color);
-}
-.link:hover{
-  color: var(--main-color);
-}
-.link{
-  text-decoration: none;
-}
 .button:hover {
   color: var(--first-color);
   background-color: #2196f3;
   cursor: pointer;
-}
-.filter{
-  color: var(--second-color)
-}
-.filter:hover{
-  color: var(--main-color);
-}
-.filter{
-  text-decoration: none;
-}
-.second-title{
-  font-size: sans-serif;
-  font-weight: 700;
+  text-align: center;
 }
 .paragraph{
   color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
 }
 .footer{
   background-color: #212121;
+  width: 1600px;
+  height: 252px;
 }
 .address{
   color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
   text-decoration: none;
   list-style-type: none;
 }
