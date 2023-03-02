@@ -49,6 +49,7 @@ letter-spacing: 0,03em;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  border: 0em;
   cursor: pointer;
 }
 .second-title{
@@ -76,10 +77,26 @@ letter-spacing: 0,03em;
 }
 /*todo el contenido*/
 .button:hover {
-  color: var(--first-color);
+  color: #212121;
+  font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+ border: 0em;
+ cursor: pointer;
+}
+.principal-button{
+  color: #ffffff; 
   background-color: #2196f3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  border: 0em;
   cursor: pointer;
-  text-align: center;
 }
 .paragraph{
   color: #757575;
@@ -99,4 +116,21 @@ letter-spacing: 0,03em;
   line-height: 24px;
   text-decoration: none;
   list-style-type: none;
+}
+.current{
+  list-style: none;
+}
+.current-link-first{
+  text-decoration: none;
+}
+.current-link-first:hover,
+.current-link-first:focus{
+  color: #2196f3;
+}
+.current-link{
+  text-decoration: none;
+}
+.current-link:hover,
+.current-link:focus{
+  color: #2196f3;
 }
