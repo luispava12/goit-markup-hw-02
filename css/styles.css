@@ -4,13 +4,21 @@
   --first-color: #ffffff;
   --second-color: #212121;
   --third-color: #757575;
+  --background-color: #f5f4fa;
 }
 body{
 color: #000000;
-background:#ffffff;
+background: #ffffff;
 font-family:  'Roboto', sans-serif;
 font-size: 14px;
 letter-spacing: 0,03em;
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+ul{
+  list-style-type: none;
 }
 .section {
   color: #ffffff;
@@ -76,27 +84,25 @@ letter-spacing: 0,03em;
   text-decoration: none;
 }
 /*todo el contenido*/
-.button:hover {
+.filter-button{
   color: #212121;
+  background-color: #f5f4fa;
   font-family: 'Roboto';
- font-style: normal;
- font-weight: 500;
- font-size: 14px;
- line-height: 16px;
- letter-spacing: 0.02em;
- border: 0em;
- cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  border: 0em;
+  cursor: pointer;
+}
+.filter-button:hover {
+  color: white;
+  background-color: var(--main-color);
 }
 .principal-button{
   color: #ffffff; 
   background-color: #2196f3;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  border: 0em;
-  cursor: pointer;
 }
 .paragraph{
   color: #757575;
@@ -117,20 +123,14 @@ letter-spacing: 0,03em;
   text-decoration: none;
   list-style-type: none;
 }
-.current{
-  list-style: none;
+.nav-item{
+  font-weight: 500;
+  color: #212121;
+  line-height: 1.1;
 }
-.current-link-first{
-  text-decoration: none;
-}
-.current-link-first:hover,
-.current-link-first:focus{
+.nav-item:hover{
   color: #2196f3;
 }
-.current-link{
-  text-decoration: none;
-}
-.current-link:hover,
-.current-link:focus{
+.current{
   color: #2196f3;
 }
